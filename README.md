@@ -6,22 +6,29 @@
 
 ``` bash
 1. git clone
-git clone https://github.com/wkl007/vue-wechat-login.git
+
+   git clone https://github.com/wkl007/vue-wechat-login.git
 
 2. 安装依赖
-cd vue-wechat-login && npm install
+
+   cd vue-wechat-login && npm install
 
 3. 修改config中dev.env.js与prod.env.js
+
    WECHAT_APPID与API_URL替换为自己的appid与地址
 
 4. 修改api文件夹下
+
    接口地址更换
 
 5. 启动程序
-npm run dev
+
+   npm run dev
 
 6. 打包
-npm run test||npm run build
+
+   npm run test||npm run build
 
 7. 预览
-打开微信开发者工具，输入线上网址查看
+
+   打开微信开发者工具，输入线上网址查看
